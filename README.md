@@ -1,7 +1,5 @@
 # Node.js Project Initialization
 
----
-
 If there is no `node_modules/` directory in the root folder, run `npm install`.
 
 To run the project, run:
@@ -16,7 +14,7 @@ To test the features, run:
 npm test
 ```
 
----
+***
 
 ## initialization
 
