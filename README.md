@@ -1,4 +1,22 @@
-# Project Initialization
+# Node.js Project Initialization
+
+---
+
+If there is no `node_modules/` directory in the root folder, run `npm install`.
+
+To run the project, run:
+
+```bash
+npm start
+```
+
+To test the features, run:
+
+```bash
+npm test
+```
+
+---
 
 ## initialization
 
@@ -58,7 +76,7 @@ Now package.json looks like this:
 
 ### Babel
 
-Recent JavaScript language features (ECMAScript) are not included in the recent Node.js versions. Babel helps to transpile the code into Vanilla JavaScript. To install Babel, simply: 
+Recent JavaScript language features (ECMAScript) are not included in the recent Node.js versions. Babel helps to transpile the code into Vanilla JavaScript. To install Babel, simply run:
 
 ```bash
 npm install @babel/core @babel/node --save-dev
