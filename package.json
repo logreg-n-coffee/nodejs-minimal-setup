@@ -1,13 +1,11 @@
 {
-  "name": "data-structure-and-algo",
+  "name": "nodejs-minimal-setup",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "nodemon --exec babel-node src/index.js",
-    "test": "mocha --require @babel/register 'src/**/**spec.js'",
-    "node": "nodemon --exec babel-node examples/node.js",
-    "linked-list": "nodemon --exec babel-node examples/linked-list.js"
+    "test": "mocha --require @babel/register 'src/**/**spec.js'"
   },
   "keywords": [],
   "author": "",
